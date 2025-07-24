@@ -1,0 +1,11 @@
+prefix=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+toolexeclibdir=${libdir}
+includedir=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv/include
+
+Name: libffi
+Description: Library supporting Foreign Function Interfaces
+Version: 3.4.4
+Libs: -L${toolexeclibdir} -lffi
+Cflags: -I${includedir}

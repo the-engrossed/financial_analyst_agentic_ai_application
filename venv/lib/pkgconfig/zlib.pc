@@ -1,0 +1,13 @@
+prefix=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv
+exec_prefix=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv
+libdir=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv/lib
+sharedlibdir=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv/lib
+includedir=/Users/tanmaireddy/Documents/financial_analyst_agentic_ai_application/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
