@@ -1,1 +1,1 @@
-# financial_analyst_agentic_ai_application
+# Financial Analyst Agentic AI Application
